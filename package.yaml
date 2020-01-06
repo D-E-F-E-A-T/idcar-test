@@ -1,0 +1,19 @@
+name: application
+
+executables:
+  idcar-app:
+    main: Main.hs
+    source-dirs: .
+
+dependencies:
+  - base
+  - mtl
+  - aeson
+  - persistent
+  - persistent-sqlite
+  - persistent-template
+  - json-rpc-server
+  - warp
+  - wai
+  - http-types
+  - monad-logger

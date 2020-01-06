@@ -1,0 +1,31 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 4ff9b5c03a42c69c2b6296a626d469aa91b370a7bab10843a9b041f73895afed
+
+name:           application
+version:        0.0.0
+build-type:     Simple
+
+executable idcar-app
+  main-is: Main.hs
+  other-modules:
+      Paths_application
+  hs-source-dirs:
+      ./.
+  build-depends:
+      aeson
+    , base
+    , http-types
+    , json-rpc-server
+    , monad-logger
+    , mtl
+    , persistent
+    , persistent-sqlite
+    , persistent-template
+    , wai
+    , warp
+  default-language: Haskell2010
